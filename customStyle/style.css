@@ -79,18 +79,18 @@ transition: 0.3s;
     border-radius:100% 0% 10% 10% / 74% 10% 0% 0% ;
     
 }
-.aboutus h1, .services h1, .projects h1 {
+.aboutus h1, .services h1, .projects h1,.team h1 {
     color:rgba(255,255,255,0.9) ;
     font-weight: bold;
 }
 
-.aboutus hr, .services hr, .projects hr{
+.aboutus hr, .services hr, .projects hr,.team hr{
     width: 100px; 
      border: 3px solid #F6264F;
 
 }
 
-.aboutus p, .services p,.projects p {
+.aboutus p, .services p, .projects p ,.team p{
     color: #f1f1f1;
     font-weight: normal;
     font-size:16px ;
