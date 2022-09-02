@@ -38,7 +38,7 @@ transition: 0.3s;
     border-bottom:3px solid #F6264F;
 }
 
-.overlay, .container,body,.services{
+.overlay,body,.services{
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);   
 }
