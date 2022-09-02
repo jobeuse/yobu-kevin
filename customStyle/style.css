@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+::selection{
+    background-color: #F6264F;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+
+}
+
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    border: none;
+}
+.navbar{
+border-radius: 10px;
+padding: 5px 20px 5px 20px;  
+background-color: rgba(245,38,81,.5) ;
+}
+
+.navbar-nav .nav-item a{
+font-size: 17px; 
+color: white;
+transition: 0.3s;
+}
+
+.navbar-nav .nav-item a:hover{
+    color: #F6264F;
+}
+.navbar-nav .nav-item .active { 
+    color: #ffff; 
+    border-bottom:3px solid #F6264F;
+}
+
+.overlay, .container,body,.services{
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);   
+}
+
+.leftside h1{
+    font-weight: bold;
+    color: rgba(255,255,255,0.9) ;
+    text-align: left;
+}
+
+.leftside p{
+    color: #F6264F;
+    font-size: 20px;
+}
+
+.leftside a{
+    border-radius: 10px;
+    padding: 10px; 
+    border:1px solid #F6264F; ;
+    color: #F6264F;;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.leftside a:hover{
+    background-color:#F6264F;
+    color: #ffff;
+}
+
+
+.rightside img {
+    width:100%; 
+
+}
+.aboutus { 
+     background-color:rgba(255,255,255,0.3) ;
+    background: linear-gradient(0, rgba(255,255,255,0.01)  0%, rgba(255,255,255,0.3)  100%);
+    border-radius:100% 0% 10% 10% / 74% 10% 0% 0% ;
+    
+}
+.aboutus h1, .services h1, .projects h1 {
+    color:rgba(255,255,255,0.9) ;
+    font-weight: bold;
+}
+
+.aboutus hr, .services hr, .projects hr{
+    width: 100px; 
+     border: 3px solid #F6264F;
+
+}
+
+.aboutus p, .services p {
+    color: #f1f1f1;
+    font-weight: normal;
+    font-size:16px ;
+}
+.aboutus .boxes{
+    background-color: rgba(255,255,255,0.7) ;
+
+}
+.aboutus .icon{
+    background-color: #F6264F;
+    padding: 15px;
+    margin-right: 10px;
+    color:rgba(255,255,255,0.9) ;
+}
+
+.services{
+    background-color:rgba(255,255,255,0.3) ; 
+    background: linear-gradient(0, rgba(255,255,255,0.3)  0%, rgba(255,255,255,0.01)  100%);
+    border-radius:100% 0% 100% 0% / 0% 5% 95% 100% ;
+    
+}
+
+.card{  
+    background-color: rgba(245,38,81,.5) ;
+    border-left: 4px solid #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgba(245,38,81,.9) ; 
+    transform: scale(1.1);
+    border-right: 4px solid #fff;
+    border-left: none;
+}
+
+.card-title{
+    font-weight: normal;
+    color:#ffff;
+
+}
