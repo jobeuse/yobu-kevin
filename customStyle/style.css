@@ -1,4 +1,5 @@
 body{
+     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -54,7 +55,7 @@ transition: 0.3s;
     font-size: 20px;
 }
 
-.leftside a{
+.leftside a, .contact .btn{
     border-radius: 10px;
     padding: 10px; 
     border:1px solid #F6264F; ;
@@ -63,7 +64,7 @@ transition: 0.3s;
     transition: 0.3s;
 }
 
-.leftside a:hover{
+.leftside a:hover, .contact .btn:hover{
     background-color:#F6264F;
     color: #ffff;
 }
@@ -79,18 +80,18 @@ transition: 0.3s;
     border-radius:100% 0% 10% 10% / 74% 10% 0% 0% ;
     
 }
-.aboutus h1, .services h1, .projects h1,.team h1 {
+.aboutus h1, .services h1, .projects h1,.team h1,.contact h1 {
     color:rgba(255,255,255,0.9) ;
     font-weight: bold;
 }
 
-.aboutus hr, .services hr, .projects hr,.team hr{
+.aboutus hr, .services hr, .projects hr,.team hr,.contact hr{
     width: 100px; 
      border: 3px solid #F6264F;
 
 }
 
-.aboutus p, .services p, .projects p ,.team p{
+.aboutus p, .services p, .projects p ,.team p,.contact p{
     color: #f1f1f1;
     font-weight: normal;
     font-size:16px ;
@@ -187,3 +188,14 @@ transition: 0.3s;
     color: whitesmoke;
 }
 
+
+
+.contact a{
+    color:#F6264F;
+}
+
+.footer{
+    background-color: rgba(245,38,81,.5) ;
+    font-weight: normal;
+    color: white;
+}
