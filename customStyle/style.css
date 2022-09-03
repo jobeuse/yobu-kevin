@@ -135,10 +135,25 @@ transition: 0.3s;
 .team .content {
     background-color: rgba(245,38,81,.5) ;
     border-radius: 25px;
-    border: 1px solid #fff;
+    border-right: 2px solid #fff;
+    transition: 0.3s;
+    cursor: pointer;
     
 }
-.team img{
+.team .content a{
+    color: white;
+}
+.team .content:hover{
+    background-color: rgba(245,38,81,.9) ; 
+    transform: scale(1.1);
+    border-right: 4px solid #fff;
+    border-left: none;
+}
+
+
+
+@media screen and (min-width:428px){
+   .team img{
     position: absolute;
     top: -20px;
     right: -8px;
@@ -146,7 +161,22 @@ transition: 0.3s;
     border: 2px solid #ffff;
     border-radius: 50%;
     height: 130px;
+} 
 }
+@media screen and (max-width:428px){
+    .team img{
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        width: 80px;
+        border: 2px solid #ffff;
+        border-radius: 50%;
+        height: 80px;
+    }
+}
+
+
+
 
 .team .content  h3{
     font-weight: bold;
